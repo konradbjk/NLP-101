@@ -1,0 +1,54 @@
+Enterprise networks generate a lot of data. A lot. Imagine a network with 6000+ access points, 10 wireless controllers, a data center, dozens of branch offices, and over 10,000 roaming wireless devices covering an area the size of a small city. Every AP collects telemetry on its operating environment, radio performance, interference statistics, and the identities of devices that are connecting to them. The SD-WAN fabric connects distributed branch offices and remote workers to cloud applications and data center resources, managing thousands of connections and traffic flows over the course of a work day.
+
+Trying to manually analyze and troubleshoot the traffic flowing through thousands of APs, switches, and routers is a near impossible task, even for the most sophisticated NetOps team. In a wireless environment, onboarding and interference errors can crop up randomly and intermittently, making it even more difficult to determine probable causes. How long does it take for devices to onboard as they are carried from segment to segment? Is taking 5 seconds to connect to an AP satisfactory or unacceptable performance? Is onboarding time consistent regardless of device density or does it vary unpredictably? How do you measure and compare application performance from SaaS providers to distributed branch offices and remote workers?
+
+The irony of having mountains of telemetry and activity logs awaiting analysis by overworked IT teams is that there is too much noise from too much data for humans to deal with in a timely manner. Machine learning (ML) and applied artificial intelligence (AI) automates the analysis of trillions of bytes of telemetry, radio fingerprints, and network access points to uncover patterns in the chaos, and turn the findings into actionable insights or automated mitigation actions. Where is the nexus of AI/ML for enterprise network analytics? In the Cisco DNA Center and the Cloud.
+Cisco AI Network Analytics in the Cloud
+
+For years now, Cisco has been integrating AI/ML into many operational and security components, with Cisco DNA Center the focal point for insights and actions. Now we are adding new capabilities with Cisco AI Network Analytics in the Cloud. AI Network Analytics collects massive amounts of network data from Cisco DNA Centers at participating customer sites, encrypts and anonymizes the data to ensure privacy, and collates all of it into the Cisco Worldwide Data Platform. In this cloud, the aggregated data is analyzed with deep machine learning to reveal patterns and anomalies such as:
+
+    Highly personalized network baselines with multiple levels of granularity that define “normal” for a given network, site, building, and SSID
+    Sudden changes in onboarding times for Wi-Fi devices, by individual APs, floor, building, campus, and branch
+    Simultaneous connectivity failures with numerous clients at a specific location
+    Changes in SaaS and Cloud application performance via SD-WAN direct internet connections or Cloud OnRamps
+
+The Worldwide Data Platform leverages a growing knowledgebase of over 35 years of Cisco engineering problem resolutions and AI-derived insights. As patterns are discovered and anomalies uncovered in the diverse ocean of data, alerts with correlated information—such as physical locations, histories, possible causes, and potential remedies—are sent to the corresponding Cisco DNA Centers for evaluation and action by NetOps.
+AI Analytics Provides Visibility, Insight, and Action
+
+The AI processes in the cloud perform the logical troubleshooting steps that a network engineer executes to resolve problems, but much faster and against a much larger data set than humans’ can handle. In large campus networks and remote branch offices, the number of alerts and false-positives for minor to major issues can come fast and furious at times, making triage the first step for NetOps teams. The AI processing helps triage issues by categorizing them according to severity, location, number of affected devices, and the ability to automatically remedy a subset of issues. As a result, NetOps can focus on high-priority alerts instead of hunting through a blizzard of data for disruptive problems. Cisco AI Network Analytics and DNA Assurance provides visibility, insight, and action for resolving network issues and improving performance.
+
+Visibility into Personalized Baseline Behavior
+
+Using machine learning to determine a baseline range for network activity—error rates, onboarding times, application performance, for example—helps spotlight relevant deviations in behavior that impact network availability. Once a personalized baseline is established, NetOps can measure performance over periods of time to determine the effects of network design changes, adding devices, changing segmentation, and adding SaaS application connections to distributed branches. A baseline enables NetOps to focus on significant anomalies rather than the noise of minute-to-minute deviations, saving time and resources for IT projects that add value.
+
+Insights Gathered From Around the World
+
+With a baseline of normal network operations established, Cisco AI Network Analytics examines abnormal behaviors to pinpoint specific issues and their root causes. A knowledgebase of engineering experience—accumulated by Cisco over decades of network monitoring and troubleshooting—works with the patterns and anomalies uncovered by ML in the Worldwide Data Platform to prescribe actions to fix issues. Workers in a remote branch office that are taking longer than the normal baseline to onboard, for example, trigger an alert in Cisco DNA Assurance, along with potential remedies, enabling NetOps to take proactive remediation steps before the delays impact productivity and customer experience.
+
+In IP networks, a problematic event is often preceded by a benign event or series of events. Using the Proactive Exploration features of AI Network Analytics, NetOps can, for example, be forewarned of increases in Wi-Fi interference, network congestion, and office traffic loads. By learning how a series of events are correlated to one another, system-generated insights can help foresee future events before they happen and alert IT staff with suggestions for corrective actions. These insights can recommend changes to Wi-Fi, switch, or application configurations that will improve system performance and user experience, improve issue relevancy, and accurately identify trends and root causes.
+
+AI Network Analytics can also compare activity and patterns among, for example, branch offices, to determine “normal” activity and pinpoint performance issues pertaining to individual sites. Since all the data in Worldwide Data Platform is anonymized, Cisco AI Network Analytics can securely compare a campus network’s performance against other sites of similar size and configuration, helping to identify opportunities for network upgrades while optimizing IT spending.
+Action and Guided Remediation from Expert Knowledgebase
+
+Insights lead to action with guided remediation suggestions resulting from the fusion of machine pattern recognition and AI-derived workflows from the engineering knowledgebase. Events similar to those that have occurred in other enterprise sites provide possible solutions that have previously resolved analogous issues. This demonstrates the value of leveraging the Worldwide Data Platform and ML to capture issues that crop up sporadically in networks all over the world and resolve them quickly and efficiently.
+
+Note that participating in the Worldwide Data Platform is optional when using Cisco DNA Center, but will result in more limited capabilities. Even though all data received from customer DNA Centers is anonymized, and each customer has a unique private key for decryption, not participating in the Worldwide Data Platform is an option for organizations that have privacy and compliance issues that limit data sharing.In
+Intent-based Networking is Smarter and Simpler to Manage with AI Network Analytics
+
+Cisco AI Network Analytics, within Cisco DNA Center, adds another layer of intelligence to Intent-Based Networking, making networks even smarter, simpler to manage, and more secure. Integrating decades of Cisco network engineering experience into the AI Network Analytics platform to continuously analyze network operations and deviations leads to faster problem resolution and thus greater IT efficiency. By identifying the most relevant optimization opportunities for each customer’s unique configuration and usage patterns, IT resources can be allocated to high priority projects providing the most benefit instead of chasing minor fluctuations in network performance.
+
+Cisco will continue to add AI and machine learning to bring simplicity and security to enterprise networks of all sizes and shades of complexity. The more telemetry, operational statistics, and security threat indicators flow into the Cisco Worldwide Data Platform, the more value enterprises using Cisco DNA Center will gain.
+
+Watch my presentations on AI, ML, and Reinventing Access in a Multi-Domain World, at Cisco Live US, June 10 -13.
+
+For more an overview of AI/ML and multi-domain networking, read Cisco EVP/GM ENB Scott Harrell’s latest post Intelligent Next Step for Intent-Based Networking.
+
+For an in-depth primer on AI/ML in Intent-Based Networking, read Cisco CTO John Apostolopoulos’ post Improving Networks with Artificial Intelligence.
+
+For a look at how Analytics and Assurance work together, read Cisco DNA Center’s Network Assurance and Analytics Leaves the Competition Behind
+
+For more information on Cisco AI Network Analytics, visit our web sites for Assurance and AI.
+
+For more on our multi-domain access story, read a new post by Prashanth Shenoy, 3 Ways Intent-Based Networking Fulfills Business Intent with Multidomain Integration
+
+Also, check out this video as Anand Oswal and John Apostolopoulos dive into how intent-based networking and AI come together!
